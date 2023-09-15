@@ -5,12 +5,12 @@ export default function Produtos() {
     
 
     return(
-        <main>
-            <h1>Produtos</h1>
+        <main className="container">
+            <h1>Aparelhos</h1>
             {listaProdutos.map(prod => (
-                <div key={prod.id}>
-                    <Link to={`/produtos/editar/${prod.id}`}>
-                        Editar o produto: {prod.nome}
+                <div  key={prod.id}>
+                    <Link className="produto" to={`/produtos/editar/${prod.id}`}>
+                        Aparelho: {prod.nome}
                     </Link>
                 </div>
             ))}

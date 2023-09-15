@@ -1,0 +1,9 @@
+.produto{
+    color: black;
+    padding: 5px;
+}
+
+.desc{
+    width: 50%;
+    text-align: center;
+}

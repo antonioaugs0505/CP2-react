@@ -16,10 +16,12 @@ export default function EditarProduto() {
     }
 
     return(
-        <main>
+        <main className="container">
             <h1>Editando o produto</h1>
-            <p>Editando os dados do produto: {produto.nome}</p>
-            <button onClick={salvar}>Salvar</button>
+            <p>Produto: {produto.nome}</p>
+            <p className="desc"> Descrição: {produto.descricao}</p>
+            <img src={produto.imagem} alt=""/>
+            <p >Preço: {produto.preco}</p>
         </main>
     )
 

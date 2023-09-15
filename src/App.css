@@ -1,60 +1,25 @@
-#root {
-  margin: 0 auto;
-  text-align: center;
+@import url(./assets/css/home.css);
+@import url(./assets/css/aparelho.css);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-nav{
-  display: flex; width: 90vw;
+nav, footer{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex; width: 100vw;
   justify-content: center; align-items: center;
-  height: 8vh; background-color: rgb(141, 169, 255);
+  height: 8vh; background-color: rgb(68, 115, 255);
   
-  & a{color: white; font-size: 1.5em; padding: 15px; }
+  & a{color: rgb(0, 0, 0); font-size: 1.5em; padding: 15px; text-decoration: none; }
+  & a:hover{color: rgb(93, 244, 255); font-size: 1.5em; padding: 15px; text-decoration: none; }
   }
+
+
+ 
 
   main{ display: flex; width: 100%;
   flex-direction: column; justify-content: center;
   align-items: center; height: 70vh;
   }
-
-  footer{
-  display: flex; width: 90vw; justify-content: center;
-  align-items: center; height: 5vh;
-  background-color: rgb(0, 0, 55);
-  color: #fff;
-  }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}

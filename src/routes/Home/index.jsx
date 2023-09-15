@@ -1,4 +1,3 @@
-import styles from "../Home/home.modules.css"
 
 export default function Home() {
     
@@ -17,6 +16,7 @@ export default function Home() {
             </div>
 
         </div>
+        
         </main>
 
     )
