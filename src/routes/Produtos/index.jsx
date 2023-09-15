@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 import { listaProdutos } from "../../components/listaProduto"
 
 export default function Produtos() {
     
+
     return(
         <main>
             <h1>Produtos</h1>
