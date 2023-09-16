@@ -5,7 +5,7 @@ export default function Produtos() {
     
 
     return(
-        <main className="container">
+        <main className="container-home">
             <h1>Aparelhos</h1>
             {listaProdutos.map(prod => (
                 <div  key={prod.id}>

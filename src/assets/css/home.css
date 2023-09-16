@@ -7,6 +7,16 @@
     padding: 30px;
 }
 
+.container-home{
+    background: #bef5ff;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 90vh;
+    padding: 30px;
+}
+
+
 .container-anuncio{
     width: 80%;
     display: flex;
